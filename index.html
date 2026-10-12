@@ -3,77 +3,102 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Anushka Babbar — Software Engineer and Data Engineer building backend systems and data platforms." />
+  <meta name="description" content="Anushka Babbar — Software and Data Engineer building backend systems, data platforms, and AI-powered applications." />
   <title>Anushka Babbar | Software & Data Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <div class="container nav">
-      <a class="wordmark" href="#top">ANUSHKA BABBAR</a>
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top">AB<span>.</span></a>
       <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-      <nav class="nav-links">
-        <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a class="contact-link" href="#contact">Contact</a>
-      </nav>
-    </div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a class="nav-cta" href="mailto:anushka.sjsu@gmail.com">Contact</a>
+      </div>
+    </nav>
   </header>
 
   <main id="top">
     <section class="hero container">
-      <div class="portrait-wrap">
-        <div class="portrait"><img src="Profile.png" alt="Professional portrait of Anushka Babbar" onerror="this.style.display='none';document.querySelector('.portrait-fallback').style.display='grid';" /><div class="portrait-fallback">AB</div></div>
-        <p class="portrait-note">Software · Data · Systems</p>
-      </div>
       <div class="hero-copy">
         <p class="eyebrow">SOFTWARE & DATA ENGINEER</p>
-        <h1>Hi, I’m Anushka.</h1>
-        <p class="hero-subtitle">I build backend systems and data platforms that are reliable, testable, and useful.</p>
-        <p class="hero-summary">I work with Java, Spring Boot, Python, PySpark, Spark, Kafka, SQL, cloud data services, and workflow orchestration. I’m currently pursuing an MS in Engineering Management at San Jose State University.</p>
-        <div class="hero-actions"><a class="button primary" href="#projects">View my projects</a><a class="button secondary" href="AnushkaBabbar_Resume.pdf" download>Download resume</a></div>
-        <div class="social-links"><a href="https://www.linkedin.com/in/anushkababbar/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/anushka16121995" target="_blank" rel="noreferrer">GitHub ↗</a><span>Milpitas, California</span></div>
+        <h1>Building reliable systems for <em>real-world problems.</em></h1>
+        <p class="hero-text">I build backend services, data platforms, and AI-powered applications using Java, Spring Boot, Python, PySpark, Kafka, cloud technologies, and agentic workflows.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-secondary" href="mailto:anushka.sjsu@gmail.com">Let’s connect</a>
+        </div>
+        <div class="quick-links">
+          <a href="https://www.linkedin.com/in/anushkababbar/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/anushka16121995" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <span>Milpitas, California</span>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Profile highlights">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="card-label">CURRENTLY</div>
+        <h2>Turning ideas into<br /><span>production-style systems.</span></h2>
+        <div class="card-rule"></div>
+        <p>MS Engineering Management<br />San Jose State University</p>
+        <div class="card-status"><span></span> Open to engineering opportunities</div>
       </div>
     </section>
 
-    <section id="about" class="section soft">
-      <div class="container two-col">
-        <div><p class="eyebrow">01 / ABOUT</p><h2>Software engineering with a data foundation.</h2></div>
-        <div class="prose">
-          <p class="large">I’m a Software & Data Engineer with 3 years of enterprise experience at Infosys, where I worked on backend services, ETL pipelines, Kafka ingestion, data validation, and an Oracle Cloud ERP migration for Finance and Fixed Assets.</p>
-          <p>My current work focuses on building production-style systems: event-driven Spring Boot services, metadata-driven data platforms, cloud analytics workflows, and automated quality gates.</p>
-          <p>I care about the details that make systems dependable—clear interfaces, validation, retries, failure isolation, testing, monitoring, and documentation.</p>
+    <section id="about" class="section section-tint">
+      <div class="container split-grid">
+        <div class="section-intro"><p class="eyebrow">01 / ABOUT</p><h2>Engineer with a systems mindset.</h2></div>
+        <div class="section-body">
+          <p class="lead">I’m a Software & Data Engineer with 3 years of experience at Infosys, where I worked on data pipelines, backend services, and reliable data-processing workflows.</p>
+          <p>Today, I’m expanding that foundation through an MS in Engineering Management at San Jose State University and hands-on projects across distributed systems, cloud data platforms, and generative AI.</p>
+          <p>I enjoy working at the intersection of software engineering and data: designing clear APIs, building resilient workflows, validating information, and creating systems that are easier to operate and trust.</p>
         </div>
       </div>
     </section>
 
     <section id="experience" class="section container">
-      <div class="section-title"><div><p class="eyebrow">02 / EXPERIENCE</p><h2>Experience</h2></div><p class="muted">Backend · Data · Enterprise systems</p></div>
-      <div class="experience-list">
-        <article class="experience-item"><div class="date">Fall 2026 — Present</div><div><h3>Instructional Student Assistant</h3><p class="org">Advanced Systems Engineering · San Jose State University</p><ul><li>Support a class of 40 students through weekly office hours and lab/discussion sessions.</li><li>Grade assignments and exams, coordinate grading logistics, and prepare course material with the instructor.</li></ul></div></article>
-        <article class="experience-item"><div class="date">Jul 2022 — Feb 2024</div><div><h3>Senior Associate Consultant</h3><p class="org">Infosys · Delhi, India / Remote</p><ul><li>Led data migration for the Finance/Fixed Assets module from legacy on-premise systems to Oracle Cloud ERP, including data cleansing, master-data extraction, and end-to-end validation.</li><li>Built PySpark ETL pipelines using Spark and Hadoop with file-based batch and Kafka streaming ingestion into Hive, reducing ad hoc data-pull requests by approximately 30% for 3+ downstream teams.</li><li>Applied field-level encryption to PII and sensitive account attributes in Hive, enabling self-service financial analytics with zero data exposure incidents.</li><li>Created reconciliation scripts and validation checks for record counts, balances, and schema consistency across SIT, UAT, and Go-Live, achieving 99.9%+ data accuracy and zero critical post-launch defects.</li><li>Coordinated Agile delivery across business, QA, and technical teams using Jira sprint planning, backlog grooming, RAID logs, and release tracking.</li></ul></div></article>
-        <article class="experience-item"><div class="date">Jun 2021 — Jul 2022</div><div><h3>Associate Consultant</h3><p class="org">Infosys · Hyderabad, India</p><ul><li>Developed REST APIs and reusable SDKs using Java, Spring Boot, and SQL to support batch-job and file-ingestion metadata workflows.</li><li>Built services to create, update, retrieve, and track job configuration, file details, processing status, and workflow information.</li><li>Implemented request validation, exception handling, database integration, Docker containerization, and Swagger/OpenAPI documentation.</li></ul></div></article>
+      <div class="section-heading"><div><p class="eyebrow">02 / EXPERIENCE</p><h2>Where I’ve contributed.</h2></div><p class="section-note">Backend · Data · Teaching</p></div>
+      <div class="timeline">
+        <article class="timeline-item current">
+          <div class="timeline-date">Fall 2026 — Present</div>
+          <div class="timeline-content"><h3>Instructional Student Assistant</h3><p class="company">Advanced Systems Engineering · San Jose State University</p><ul><li>Support a class of 40 students through weekly office hours and lab/discussion sessions.</li><li>Coordinate grading logistics and course-material preparation with the course instructor.</li></ul></div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">Jul 2022 — Feb 2024</div>
+          <div class="timeline-content"><h3>Senior Associate Consultant</h3><p class="company">Infosys · Delhi, India / Remote</p><ul><li>Reduced ad hoc data-pull requests by approximately 30% by building PySpark ETL pipelines using Spark and Hadoop for 3+ downstream teams.</li><li>Developed file-based batch and Kafka streaming ingestion workflows loading financial data into Hive.</li><li>Achieved 99.9%+ data accuracy through reconciliation scripts, schema validation, and release-quality checks.</li><li>Applied field-level encryption to PII in Hive to support secure financial analytics.</li></ul></div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">Jun 2021 — Jul 2022</div>
+          <div class="timeline-content"><h3>Associate Consultant</h3><p class="company">Infosys · Hyderabad, India</p><ul><li>Developed REST APIs and reusable SDKs using Java, Spring Boot, and SQL for batch-job and file-ingestion metadata.</li><li>Built services to create, update, retrieve, and track job configuration, file details, processing status, and workflow information.</li><li>Implemented validation, exception handling, database integration, Docker containerization, and Swagger/OpenAPI documentation.</li></ul></div>
+        </article>
       </div>
     </section>
 
-    <section id="projects" class="section soft">
-      <div class="container"><div class="section-title"><div><p class="eyebrow">03 / PROJECTS</p><h2>Selected work</h2></div><p class="muted">Full project context beyond a one-page resume.</p></div>
-        <div class="projects">
-          <article class="project"><div class="project-top"><span class="project-index">01</span><span class="project-type">BACKEND · DISTRIBUTED SYSTEMS</span></div><h3>E-Commerce Order Processing System</h3><p>Built a Spring Boot order-processing system with 100+ REST endpoints for users, products, orders, and recommendations.</p><ul><li>Combined synchronous catalog and checkout APIs with asynchronous Kafka events for fulfillment, inventory updates, and notifications.</li><li>Added three-attempt consumer retries with a two-second backoff and a Dead Letter Queue to isolate failed events and prevent silent message loss.</li><li>Implemented JWT authentication and Spring Security role-based access control for customer and admin endpoints.</li><li>Configured PostgreSQL and pgvector for 768-dimensional product embeddings, achieving approximately 82 ms median similarity-search latency.</li><li>Added JUnit 5, Mockito, and MockMvc tests including failure-path and retry/DLQ scenarios, reaching 78% unit test coverage.</li><li>Built GitHub Actions CI to run Maven builds and tests on every push and pull request.</li></ul><div class="tags"><span>Java</span><span>Spring Boot</span><span>Kafka</span><span>PostgreSQL</span><span>Docker</span><span>JUnit</span></div></article>
-          <article class="project"><div class="project-top"><span class="project-index">02</span><span class="project-type">DATA ENGINEERING · CLOUD</span></div><h3>Metadata-Driven Data Ingestion Platform</h3><p>Built a Java/Spring Boot metadata control plane for ingestion jobs and per-stage execution history across Scanner, Loader, Validator, Enricher, and Writer stages.</p><ul><li>Processed 100K+ records at 99%+ pipeline success while tracking job and stage history in PostgreSQL.</li><li>Developed a Python/PySpark validator that quarantines rejected records with failure reasons, isolating 100% of invalid records and writing valid records as partitioned Parquet datasets.</li><li>Added stuck/failed-job monitoring and automated failure notifications using job and stage status history.</li><li>Cataloged Parquet datasets in Hive and extended the pipeline to Google Cloud Storage and BigQuery for cloud analytics.</li><li>Containerized services with Docker and orchestrated ingestion stages with Airflow, including retries for transient failures.</li></ul><div class="tags"><span>Java</span><span>Python</span><span>PySpark</span><span>PostgreSQL</span><span>GCP</span><span>Airflow</span></div></article>
-          <article class="project"><div class="project-top"><span class="project-index">03</span><span class="project-type">AGENTIC AI · AUTOMATION</span></div><h3>Multi-Agent Assignment Grading System</h3><p>Developed an orchestrator-driven pipeline for grading mixed Excel and handwritten-PDF submissions against an answer key for a 40-student course.</p><ul><li>Built Reader, OCR/Vision, Grader, and Reviewer agents and normalized 40+ submissions per assignment into a common schema.</li><li>Used Pandas and OpenPyXL for structured Excel cells and OCR/Vision processing for handwritten PDFs.</li><li>Combined rubric rules with LLM evaluation to reach 92% agreement with instructor-assigned reference grades.</li><li>Flagged 10% of low-confidence grades for human sign-off, reducing manual grading time by approximately 65%.</li></ul><div class="tags"><span>Python</span><span>LLM Agents</span><span>OCR/Vision</span><span>Pandas</span><span>OpenPyXL</span></div></article>
-          <article class="project compact-project"><div class="project-top"><span class="project-index">04</span><span class="project-type">COURSEWORK · DATA PLANNING</span></div><h3>Demand Forecasting & Aggregate Planning</h3><p>Applied demand planning and forecasting models to historical data across multiple future horizons, then built an aggregate production plan balancing projected demand against capacity and inventory constraints.</p><div class="tags"><span>Demand Forecasting</span><span>Aggregate Planning</span><span>Data Analysis</span></div></article>
+    <section id="projects" class="section section-dark">
+      <div class="container">
+        <div class="section-heading light"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Systems I’ve built.</h2></div><p class="section-note">Detailed project notes, without the character limit.</p></div>
+        <div class="project-grid">
+          <article class="project-card featured-project"><div class="project-number">01</div><p class="project-type">BACKEND · DISTRIBUTED SYSTEMS</p><h3>E-Commerce Order Processing System</h3><p>Built a Spring Boot backend with 100+ REST endpoints for catalog browsing, checkout, order management, and customer operations.</p><ul><li>Designed Kafka workflows for fulfillment, inventory updates, and notifications with retries and a Dead Letter Queue.</li><li>Implemented JWT-based authentication and role-based authorization with Spring Security.</li><li>Used PostgreSQL and pgvector for 768-dimensional product embeddings and similarity recommendations at 82 ms median response time.</li><li>Added JUnit 5 and Mockito tests with 78% unit test coverage and GitHub Actions CI.</li></ul><div class="tags"><span>Java</span><span>Spring Boot</span><span>Kafka</span><span>PostgreSQL</span><span>Docker</span></div></article>
+          <article class="project-card"><div class="project-number">02</div><p class="project-type">DATA ENGINEERING · CLOUD</p><h3>Metadata-Driven Data Ingestion Platform</h3><p>Built a Spring Boot metadata control plane to manage ingestion jobs, stages, file details, configurations, execution history, and status.</p><ul><li>Processed 100K+ records with PySpark and quarantined 100% of invalid records for review.</li><li>Added job monitoring, stuck-job detection, failure notifications, and stage-level operational visibility.</li><li>Extended the platform to GCP and BigQuery, with Docker and Airflow orchestration.</li></ul><div class="tags"><span>Python</span><span>PySpark</span><span>GCP</span><span>BigQuery</span><span>Airflow</span></div></article>
+          <article class="project-card"><div class="project-number">03</div><p class="project-type">AGENTIC AI · AUTOMATION</p><h3>Multi-Agent Assignment Grading System</h3><p>Developed a Python-based agentic workflow coordinating Reader, OCR/Vision, Grader, and Reviewer agents for mixed Excel and handwritten-PDF submissions.</p><ul><li>Normalized 40+ submissions per assignment into a common schema while managing routing, sequencing, retries, and errors.</li><li>Combined rubric rules with LLM evaluation and achieved 92% agreement with instructor scores.</li><li>Flagged the 10% lowest-confidence grades for human review, reducing manual grading time by approximately 65%.</li></ul><div class="tags"><span>Python</span><span>LLM Agents</span><span>OCR/Vision</span><span>Pandas</span><span>OpenPyXL</span></div></article>
         </div>
       </div>
     </section>
 
-    <section id="skills" class="section container"><div class="two-col"><div><p class="eyebrow">04 / SKILLS</p><h2>Technical toolkit</h2></div><div class="skills"><div><h3>Languages & backend</h3><p>Java · Python · SQL · Spring Boot · Spring MVC · Spring Data JPA · Hibernate · REST APIs · Microservices · Spring Security · MySQL · PostgreSQL</p></div><div><h3>Data engineering</h3><p>PySpark · Apache Spark · Spark SQL · Apache Hive · Hadoop/HDFS · Parquet · Kafka · ETL/ELT · Data Quality · Data Modeling · Pandas · NumPy</p></div><div><h3>Cloud, delivery & quality</h3><p>GCP · Cloud Storage · BigQuery · Airflow · Docker · GitHub Actions · CI/CD · JUnit 5 · Mockito · MockMvc · Pytest · Postman · Swagger/OpenAPI</p></div><div><h3>AI, reliability & tools</h3><p>Generative AI · Agentic AI · RAG · Embeddings · pgvector · OCR/Vision · Prompt Engineering · Retry Logic · Dead Letter Queues · Job Monitoring · Failure Alerting · Git · Linux/Shell</p></div></div></div></section>
+    <section id="skills" class="section section-tint">
+      <div class="container split-grid skills-layout"><div class="section-intro"><p class="eyebrow">04 / TOOLKIT</p><h2>Tools for building end to end.</h2></div><div class="skills-groups"><div><h3>Languages & Backend</h3><p>Java · Python · SQL · Spring Boot · REST APIs · Microservices · Spring Security · Hibernate</p></div><div><h3>Data & Cloud</h3><p>PySpark · Apache Spark · Kafka · Hadoop · Hive · PostgreSQL · MySQL · BigQuery · GCP · Airflow · Docker</p></div><div><h3>AI & Quality</h3><p>Generative AI · Agentic AI · RAG · Embeddings · pgvector · OCR/Vision · JUnit 5 · Mockito · GitHub Actions · CI/CD</p></div></div></div>
+    </section>
 
-    <section class="education soft"><div class="container education-inner"><div><p class="eyebrow">05 / EDUCATION</p><h2>Education</h2></div><div><h3>MS in Engineering Management</h3><p>San Jose State University · GPA 3.8/4.0 · Expected December 2026</p><h3>Post Graduate Diploma in Management</h3><p>Lal Bahadur Shastri Institute of Management · GPA 7.38/10</p><h3>B.Tech. in Information Technology</h3><p>Guru Gobind Singh Indraprastha University · 83.46%</p></div></div></section>
-    <section id="contact" class="closing container"><p class="eyebrow">LET’S CONNECT</p><h2>Interested in building reliable systems together?</h2><div class="contact-actions"><a class="button primary" href="mailto:anushka.sjsu@gmail.com">Email me ↗</a><button class="button secondary copy-email" data-email="anushka.sjsu@gmail.com">Copy email</button><a class="button secondary" href="AnushkaBabbar_Resume.pdf" download>Download resume</a></div><p class="contact-email">anushka.sjsu@gmail.com</p><span class="copy-status" aria-live="polite"></span></section>
+    <section class="cta-section container"><p class="eyebrow">LET’S BUILD SOMETHING USEFUL</p><h2>Have a problem worth solving?</h2><a class="button button-primary" href="mailto:anushka.sjsu@gmail.com">Get in touch <span>↗</span></a></section>
   </main>
-  <footer><div class="container footer-inner"><span>© <span id="year"></span> Anushka Babbar</span><span><a href="https://www.linkedin.com/in/anushkababbar/" target="_blank" rel="noreferrer">LinkedIn</a> · <a href="https://github.com/anushka16121995" target="_blank" rel="noreferrer">GitHub</a></span></div></footer>
+
+  <footer class="footer"><div class="container footer-inner"><span>© <span id="year"></span> Anushka Babbar</span><span>Built with curiosity and care.</span><a href="#top">Back to top ↑</a></div></footer>
   <script src="script.js"></script>
 </body>
 </html>
